@@ -45,7 +45,7 @@
 5. 将本地的文件推送到远程仓库上，当作书籍源文件的版本管理，这样既能管理源文件也能发布
 ```bash
    mkdir docs
-   cp _book/* docs
+   cp _book/* docs 或者 gitbook build ./ docs
    git add README.md SUMMARY.md docs
    git commit -m "xxx"
    git push origin master
